@@ -1,14 +1,7 @@
-//
-//  EngageApp.swift
-//  Engage
-//
-//  Created by Aayushi Garg on 10/23/23.
-//
-
 import SwiftUI
-
+@available(iOS 16.0, *)
 @main
-struct EngageApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

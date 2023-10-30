@@ -11,6 +11,11 @@
 		4D0BA0B12AE72A5C00571DC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0B02AE72A5C00571DC4 /* ContentView.swift */; };
 		4D0BA0B32AE72A5D00571DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA0B22AE72A5D00571DC4 /* Assets.xcassets */; };
 		4D0BA0B62AE72A5D00571DC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA0B52AE72A5D00571DC4 /* Preview Assets.xcassets */; };
+		4D0BA0BD2AE72ABF00571DC4 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0BC2AE72ABF00571DC4 /* homeView.swift */; };
+		4D0BA0BF2AE72ACB00571DC4 /* issuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0BE2AE72ACB00571DC4 /* issuesView.swift */; };
+		4D0BA0C12AE72ADB00571DC4 /* registrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0C02AE72ADB00571DC4 /* registrationView.swift */; };
+		4D0BA0C32AE72AE600571DC4 /* votingCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0C22AE72AE600571DC4 /* votingCenter.swift */; };
+		4D0BA0C52AE72AEE00571DC4 /* whyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA0C42AE72AEE00571DC4 /* whyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		4D0BA0B02AE72A5C00571DC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D0BA0B22AE72A5D00571DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0BA0B52AE72A5D00571DC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D0BA0BC2AE72ABF00571DC4 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		4D0BA0BE2AE72ACB00571DC4 /* issuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issuesView.swift; sourceTree = "<group>"; };
+		4D0BA0C02AE72ADB00571DC4 /* registrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationView.swift; sourceTree = "<group>"; };
+		4D0BA0C22AE72AE600571DC4 /* votingCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votingCenter.swift; sourceTree = "<group>"; };
+		4D0BA0C42AE72AEE00571DC4 /* whyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				4D0BA0AE2AE72A5C00571DC4 /* EngageApp.swift */,
 				4D0BA0B02AE72A5C00571DC4 /* ContentView.swift */,
+				4D0BA0BC2AE72ABF00571DC4 /* homeView.swift */,
+				4D0BA0C22AE72AE600571DC4 /* votingCenter.swift */,
+				4D0BA0C42AE72AEE00571DC4 /* whyView.swift */,
+				4D0BA0BE2AE72ACB00571DC4 /* issuesView.swift */,
+				4D0BA0C02AE72ADB00571DC4 /* registrationView.swift */,
 				4D0BA0B22AE72A5D00571DC4 /* Assets.xcassets */,
 				4D0BA0B42AE72A5D00571DC4 /* Preview Content */,
 			);
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0BA0B12AE72A5C00571DC4 /* ContentView.swift in Sources */,
+				4D0BA0C32AE72AE600571DC4 /* votingCenter.swift in Sources */,
+				4D0BA0C52AE72AEE00571DC4 /* whyView.swift in Sources */,
 				4D0BA0AF2AE72A5C00571DC4 /* EngageApp.swift in Sources */,
+				4D0BA0C12AE72ADB00571DC4 /* registrationView.swift in Sources */,
+				4D0BA0BF2AE72ACB00571DC4 /* issuesView.swift in Sources */,
+				4D0BA0BD2AE72ABF00571DC4 /* homeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
